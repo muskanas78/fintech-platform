@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; 
 import { PortfolioProvider } from './context/PortfolioContext';
 import { UserProfileProvider } from './context/UserProfileContext';
 import Navbar from './components/Navbar/Navbar';
@@ -16,7 +16,7 @@ function App() {
   return (
     <UserProfileProvider>
       <PortfolioProvider>
-        <BrowserRouter>
+        <Router> 
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -27,7 +27,7 @@ function App() {
             <Route path="/recommendations" element={<Recommendations />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </BrowserRouter>
+        </Router>
       </PortfolioProvider>
     </UserProfileProvider>
   );
