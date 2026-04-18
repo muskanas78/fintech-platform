@@ -1,0 +1,35 @@
+/* Global CSS variables - light purple pastel theme */
+:root {
+  --purple-light: #f3e8ff;
+  --purple-main: #c084fc;
+  --purple-dark: #9333ea;
+  --purple-soft: #e9d5ff;
+  --white: #ffffff;
+  --gray-light: #f9f9f9;
+  --gray-text: #555;
+  --green: #4ade80;
+  --yellow: #facc15;
+  --red: #f87171;
+  --shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--purple-light);
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,43 @@
+.listing-page h2 {
+  color: #7e22ce;
+  margin-bottom: 16px;
+  font-size: 22px;
+}
+
+.listing-layout {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.listing-right {
+  flex: 1;
+}
+
+.sort-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+.sort-row select {
+  padding: 6px 10px;
+  border: 1px solid #c084fc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 16px;
+}
+
+.no-results {
+  color: #888;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,67 @@
+.filter-panel {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  min-width: 200px;
+}
+
+.filter-panel h3 {
+  color: #9333ea;
+  margin-bottom: 14px;
+}
+
+.count {
+  font-size: 13px;
+  color: #888;
+}
+
+.filter-group {
+  margin-bottom: 14px;
+}
+
+.filter-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.checkbox-group label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-transform: capitalize;
+}
+
+.filter-group input[type="number"],
+.filter-group select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #e9d5ff;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.btn-reset {
+  width: 100%;
+  padding: 8px;
+  background: #f3e8ff;
+  color: #9333ea;
+  border: 1px solid #c084fc;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.btn-reset:hover {
+  background: #e9d5ff;
+}
