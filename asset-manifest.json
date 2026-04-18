@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fintech-platform/static/css/main.a7e5b0e7.css",
-    "main.js": "/fintech-platform/static/js/main.83fb309f.js",
+    "main.js": "/fintech-platform/static/js/main.f2a0d61f.js",
     "index.html": "/fintech-platform/index.html",
     "main.a7e5b0e7.css.map": "/fintech-platform/static/css/main.a7e5b0e7.css.map",
-    "main.83fb309f.js.map": "/fintech-platform/static/js/main.83fb309f.js.map"
+    "main.f2a0d61f.js.map": "/fintech-platform/static/js/main.f2a0d61f.js.map"
   },
   "entrypoints": [
     "static/css/main.a7e5b0e7.css",
-    "static/js/main.83fb309f.js"
+    "static/js/main.f2a0d61f.js"
   ]
 }
