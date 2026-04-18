@@ -2,15 +2,23 @@
 
 A React-based financial product discovery platform built for FAST University Web Programming Assignment.
 
+## 🌐 Live Demo
+
+🚀 **View the app here:** [https://muskanas78.github.io/fintech-platform/](https://muskanas78.github.io/fintech-platform/)
+
+---
+
 ## 🚀 How to Run
 
 1. Open this folder in VS Code
 2. Open Terminal (Ctrl + `)
 3. Run:
+
 ```
 npm install
 npm start
 ```
+
 4. App opens at http://localhost:3000
 
 ## 📁 Folder Structure
@@ -59,15 +67,23 @@ src/
 
 ## 🌐 Pages / Routes
 
-| Route | Page |
-|-------|------|
-| / | Home |
-| /products | Product Listing |
-| /product/:id | Product Detail |
-| /profile | User Profile |
-| /portfolio | Portfolio |
+| Route            | Page            |
+| ---------------- | --------------- |
+| /                | Home            |
+| /products        | Product Listing |
+| /product/:id     | Product Detail  |
+| /profile         | User Profile    |
+| /portfolio       | Portfolio       |
 | /recommendations | Recommendations |
-| * | 404 Not Found |
+| \*               | 404 Not Found   |
+
+## Deployment
+
+This project is deployed using gh-pages. To update the live site:
+
+```
+npm run deploy
+```
 
 ## 📤 GitHub Upload Commands
 
